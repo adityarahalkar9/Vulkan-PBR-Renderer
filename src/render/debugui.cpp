@@ -1,11 +1,11 @@
-#include "render/DebugUi.hpp"
+#include "render/debugui.hpp"
 
-#include "assets/AssetManager.hpp"
-#include "core/JobSystem.hpp"
-#include "render/GpuProfiler.hpp"
-#include "render/Swapchain.hpp"
-#include "render/VulkanContext.hpp"
-#include "scene/Scene.hpp"
+#include "assets/assetmanager.hpp"
+#include "core/jobsystem.hpp"
+#include "render/gpuprofiler.hpp"
+#include "render/swapchain.hpp"
+#include "render/vulkancontext.hpp"
+#include "scene/scene.hpp"
 
 #include <backends/imgui_impl_glfw.h>
 #include <vk_mem_alloc.h>
