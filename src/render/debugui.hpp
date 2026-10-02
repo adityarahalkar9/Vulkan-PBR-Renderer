@@ -2,7 +2,7 @@
 // ImGui debug front end: performance graphs, render settings, GPU/memory
 // architecture inspection, scene inspector and the asset download manager.
 
-#include "core/Types.hpp"
+#include "core/types.hpp"
 
 #include <backends/imgui_impl_vulkan.h>
 #include <imgui.h>
